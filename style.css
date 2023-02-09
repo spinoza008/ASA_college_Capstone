@@ -1,0 +1,267 @@
+
+.body-div {
+  background: url("image/res.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: sans-serif;
+}
+.header-div {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+#ourfood {
+  color: gold;
+}
+#ourfood:hover {
+  font-size: 150%;
+}
+
+.head {
+  float: left;
+  color: #fff;
+  font-family: cursive;
+}
+
+nav {
+  float: right;
+}
+
+li {
+  display: inline;
+  padding: 1rem;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.active {
+  color: rgb(0, 255, 157);
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 1%;
+}
+
+showcase h1 {
+  color: #fff;
+  font-family: cursive;
+  text-align: center;
+}
+
+showcase h3 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.category {
+  color: #fff;
+  margin-top: 5%;
+  display: flex;
+  text-align: center;
+  font-family: cursive;
+}
+
+img {
+  width: 50%;
+  border-radius: 30%;
+}
+
+.snacks,
+.grill,
+.thai {
+  padding-left: 3rem;
+}
+
+h4 {
+  font-size: 1.5rem; /*1rem=16px*/
+  margin: 3%;
+}
+.btn {
+  background-color: gold;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+}
+.btn:hover {
+  background-color: green;
+  font-size: 150%;
+}
+.info {
+  color: yellow;
+  font-style: italic;
+}
+.info:hover {
+  color: red;
+}
+#main-footer {
+  color: greenyellow;
+}
+
+
+
+
+
+#main-header {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#main-header h1:hover {
+  color: green;
+  font-size: 150%;
+}
+#homepage {
+  background-color: gold;
+  padding: 1rem;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+#homepage:hover {
+  background-color: green;
+  font-size: 150%;
+}
+body {
+  background: url(image/plate1.jpg) no-repeat;
+  background-size: cover;
+}
+
+#main-footer {
+  text-align: center;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+}
+
+* {
+  box-sizing: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 500px;
+  height: 50%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: yellowgreen;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.number {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+.btn1 {
+  background-color: gold;
+  padding: 10px;
+  border: none;
+  border-radius: 100px;
+  font-weight: bolder;
+}
+.btn1:hover {
+  background-color: green;
+  font-size: 150%;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
